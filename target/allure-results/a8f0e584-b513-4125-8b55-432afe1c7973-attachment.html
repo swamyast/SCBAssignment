@@ -1,0 +1,37 @@
+<div>POST to http://77.102.250.113:17354/api/v1/books</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;pages&quot;: 448,
+    &quot;author&quot;: &quot;Improving the Design of Existing Code&quot;,
+    &quot;price&quot;: 35.5,
+    &quot;publication&quot;: &quot;Addison-Wesley Professional&quot;,
+    &quot;name&quot;: &quot;HeadFirst Java&quot;,
+    &quot;category&quot;: &quot;Java Books&quot;,
+    &quot;Refactoring&quot;: &quot;Improving the Design of Existing Code&quot;
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>Content-Type: application/json; charset=UTF-8</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;http://77.102.250.113:17354/api/v1/books&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json; charset=UTF-8&#39; -d &#39;{
+    &quot;pages&quot;: 448,
+    &quot;author&quot;: &quot;Improving the Design of Existing Code&quot;,
+    &quot;price&quot;: 35.5,
+    &quot;publication&quot;: &quot;Addison-Wesley Professional&quot;,
+    &quot;name&quot;: &quot;HeadFirst Java&quot;,
+    &quot;category&quot;: &quot;Java Books&quot;,
+    &quot;Refactoring&quot;: &quot;Improving the Design of Existing Code&quot;
+}&#39;
+</div>
